@@ -8,10 +8,10 @@ export default function App({ Component }: AppProps) {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>cryyp-links</title>
         <link rel="stylesheet" href="/styles.css" />
+        <link rel="stylesheet" href="/styles/tailwind.css" />
       </head>
-      <body>
-        <Component />
-      </body>
+
+      <Component />
     </html>
   );
 }
